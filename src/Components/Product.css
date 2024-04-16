@@ -1,0 +1,52 @@
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.design-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    background-color: black;
+   
+}
+
+.design-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.design-box select {
+    margin: 5px 0;
+    width: 100%;
+}
+
+.design-box button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.design-box button:hover {
+    background-color: #0056b3;
+   
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        /* Stack products vertically */
+    }
+
+    .design-box {
+        width: 100%;
+        /* Full width for each design box */
+        margin-bottom: 20px;
+    }
+}

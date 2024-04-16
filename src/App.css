@@ -1,0 +1,28 @@
+
+
+
+  
+ .App-header {
+   position: relative;
+   padding-top: 30vh;
+   padding-bottom: 40px;
+   
+ }
+
+ .sikwolf-text {
+   position: absolute;
+   top: 2%;
+   left: 50%;
+   transform: translateX(-50%) rotate(-10deg);
+  width: 60%;
+  padding-bottom: 20px;
+    height: auto;
+   
+ }
+
+ @media (max-width: 768px) {
+   .App-header {
+     font-size: 1.2rem;
+     /* Smaller text for smaller screens */
+   }
+ }

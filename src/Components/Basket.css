@@ -1,0 +1,20 @@
+.basket {
+    color: #fff;
+    background-color: #3c3c3c;
+ 
+    padding: 20px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.basket ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .basket-container {
+        width: 100%;
+        /* Full width for small screens */
+    }
+}

@@ -1,0 +1,12 @@
+.checkout {
+  margin: 20px auto;
+  text-align: center;
+ 
+}
+
+@media (max-width: 768px) {
+  .checkout-form {
+    flex-direction: column;
+    /* Stack form fields vertically */
+  }
+}

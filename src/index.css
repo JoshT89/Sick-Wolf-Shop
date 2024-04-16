@@ -1,0 +1,46 @@
+
+body {
+  background-image: url('/public/designs/SWtile.png');
+  background-repeat: repeat;
+  background-size: 500px;
+
+}
+
+
+button {
+  background-color: #6a0dad;
+ 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Funky Display', sans-serif;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #501c7a;
+  
+}
+
+select {
+  margin: 10px;
+  padding: 5px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+
+  h1,
+  h2,
+  h3 {
+    font-size: smaller;
+    /* Adjust heading sizes for smaller screens */
+  }
+}
